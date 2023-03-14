@@ -68,19 +68,21 @@ Explanation:
 Here, set is the set containing the distinct heights. Using the sum() and len() functions, we can compute the average.
 
                              Average = 1355/8 = 149.375
-                             
+          
+          
                          
-    Decision:
+# Decision:
     
-    def average(array):
- sum_array = sum(set(array))
- len_array = len(set(array))
- output = sum_array/len_array
- return output;
+    
+                       def average(array):
+                          sum_array = sum(set(array))
+                          len_array = len(set(array))
+                          output = sum_array/len_array
+                      return output;
 
-if __name__ == '__main__':
-    n = int(input())
-    arr = list(map(int, input().split()))
-    result = average(arr)
-    print(result)
+                        if __name__ == '__main__':
+                         n = int(input())
+                        arr = list(map(int, input().split()))
+                        result = average(arr)
+                         print(result)
 
